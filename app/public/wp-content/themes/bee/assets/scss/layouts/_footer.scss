@@ -1,19 +1,26 @@
 .footer {
 	background: $darker;
 	padding: 80px 0 0 0;
-	background-image: url(#{$img-path}patterns/hex_three.svg), url(#{$img-path}patterns/hex_four.svg);
-    background-size: 423px auto, 487px auto;
-    background-position: -4% 255%, 103% -18%;
+	background-image: url(#{$img-path}patterns/hex_three.svg);
+    background-size: 200px auto;
+    background-position: -4% 130%;
     background-repeat: no-repeat;
 
-    @media screen and (min-width: $mob-start) {
+    @media screen and (min-width: $lap-start) {
+    	padding: 160px 0 40px 0;
+    }
+
+    @media screen and (min-width: $desk-start) {
 		padding: 240px 0 40px 0;
+		background-image: url(#{$img-path}patterns/hex_three.svg), url(#{$img-path}patterns/hex_four.svg);
+		background-size: 423px auto, 487px auto;
+		background-position: -4% 255%, 103% -18%;
 	}
 }
 
 .footer__row {
 
-	@media screen and (min-width: $mob-start) {
+	@media screen and (min-width: $lap-start) {
 		display: flex;
 		margin: 0 -20px;
 	}
@@ -24,7 +31,7 @@
 	width: 100%;
 	padding: 0 0 40px 0;
 
-	@media screen and (min-width: $mob-start) {
+	@media screen and (min-width: $lap-start) {
 		width: 33.333%;
 		padding: 0 20px;
 	}
@@ -35,7 +42,7 @@
 	@include subtitle();
 	margin: 0 0 10px 0;
 
-	@media screen and (min-width: $mob-start) {
+	@media screen and (min-width: $lap-start) {
 		margin: 0 0 30px 0;
 	}
 }
@@ -47,7 +54,7 @@
 	line-height: 1.2em;
 	margin: 0;
 
-	@media screen and (min-width: $mob-start) {
+	@media screen and (min-width: $lap-start) {
 		font-size: 30px;
 	}
 }
@@ -63,10 +70,11 @@
 .footer__social-icon a {
 	color: #fff;
 	font-size: 24px;
-    margin: 0 10px;
+    margin: 0 5px;
 
-    @media screen and (min-width: $mob-start) {
+    @media screen and (min-width: $desk-start) {
 		font-size: 30px;
+		margin: 0 10px;
 	}
 }
 
@@ -74,7 +82,11 @@
 	text-align: center;
 	padding: 20px 0 20px 0;
 
-	@media screen and (min-width: $mob-start) {
+	@media screen and (min-width: $lap-start) {
+		padding: 120px 0 0 0;
+	}
+
+	@media screen and (min-width: $desk-start) {
 		padding: 180px 0 0 0;
 	}
 }

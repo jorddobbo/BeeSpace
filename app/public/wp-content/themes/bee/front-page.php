@@ -75,9 +75,9 @@
 			</div>
 			<div class="home-design-sub__column">
 				<h2 class="home-design-sub__title title--standard">Styling and <br>Staging Service</h2>
-				<p class="home-design-sub__paragraph">If you are planning to rent your property out but want it to have the best online presence, we offer a full styling and staging service. We will come to your property and install furniture, soft furnishings, art works and accessories to make sure your property looks incredible ready for professional photographs to be taken.
+				<p class="home-design-sub__paragraph">If you are planning to rent your property out but want it to have the best online presence, we offer a full styling and staging service. We will come to your property and install furniture, soft furnishings, art works and accessories to make sure your property looks incredible ready for professional photographs to be taken.<br>
 
-				<a href="btn">Drop me a message</a></p>
+				<a class="home-design__btn btn btn--dark">Drop me a message</a></p>
 			</div>
 		</div>
 	</div>
@@ -129,7 +129,7 @@ if( $testimonials->have_posts() ) :
 					<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/icon_purchase.svg" />
 				</div>
 				<div class="home-information__column-text">
-					<h2 class="home-information__title title--standard">Properties<br>We Purchase</h2>
+					<h2 class="home-information__title title--standard">Properties We Purchase</h2>
 					<p class="home-information__paragraph">We are always searching for new properties to purchase. We will consider buying a property regardless of the condition it is in. If you think you have a property we may be interesting in purchasing please get in touch to discuss how you may be able to use our discreet service. </p>
 				</div>
 			</div>
@@ -138,7 +138,7 @@ if( $testimonials->have_posts() ) :
 					<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/icon_lease.svg" />
 				</div>
 				<div class="home-information__column-text">
-					<h2 class="home-information__title title--standard">Properties<br>We Lease</h2>
+					<h2 class="home-information__title title--standard">Properties We Lease</h2>
 					<p class="home-information__paragraph">We are also very happy to work with existing landlords or homeowners that may want to long lease their property to us over a fixed period of 3-5 years. With this service we will guarantee you rent through out the agreement period. </p>
 				</div>
 			</div>

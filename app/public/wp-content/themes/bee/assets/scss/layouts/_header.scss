@@ -95,10 +95,11 @@
 }
 
 .header__menu-toggle {
-	position: absolute;
+	position: fixed;
 	top: 30px;
 	right: 30px;
 	display: none;
+	z-index: 99;
 
 	@include media-query(max, $desk-start) {
     	display: block;
